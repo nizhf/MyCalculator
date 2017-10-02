@@ -1,0 +1,68 @@
+QPushButton {
+	border: none;
+}
+
+#btnNum {
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+
+#btnNum:hover {
+	background-color: #CCCCCC;
+}
+
+#btnNum:pressed {
+	background-color: #AAAAAA;
+}
+
+#btnOp {
+	font-size: 20px;
+	color: black;
+	background-color: #F5F5F5;
+}
+
+#btnOp:hover {
+	background-color: #66CCFF;
+}
+
+#btnOp:pressed {
+	background-color: #56BCEF;
+}
+
+#btnOther {
+	font-size: 20px;
+	color: black;
+	background-color: #F5F5F5;
+}
+
+#btnOther:hover {
+	background-color: #CCCCCC;
+}
+
+#btnOther:pressed {
+	background-color: #AAAAAA;
+}
+
+#btnOther:disabled {
+	color: #666666;
+}
+
+QLabel {
+	border: none;
+	background-color: none;
+}
+
+#labelSolution {
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	margin-right: 20px;
+}
+
+#labelTemp {
+	font-size: 18px;
+	color: #666666;
+	margin-right: 20px;
+}
